@@ -1,0 +1,71 @@
+/* variables.css */
+:root {
+
+  --theam-color: #005eb8;
+  --card-color: #508cedc2;
+  --content-container-bg-light: white;
+  --content-container-bg-dark: #111;
+  /* Define a dark background color */
+
+  --side-bar-color: #ffffff;
+
+  --save-btn-bg-dark: #111;
+  /* Define a dark background color */
+  --save-btn-bg-light: rgb(43, 128, 255);
+  /* Define a dark background color */
+
+  --cancel-btn-bg-dark: #000000;
+  --cancel-btn-bg-light: #f9f9f9;
+
+  --cancel-btn-color-dark: #f9f9f9;
+  --cancel-btn-color-light: rgb(43, 128, 255);
+
+  --custom-scrollbar-thumb-background: #c5c5c5;
+  --font-family: 'proxima-nova', sans-serif;
+
+
+}
+
+
+
+/* WebKit (Chrome, Safari, etc.) */
+/* Vertical scrollbar */
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--custom-scrollbar-thumb-background);
+}
+
+/* Horizontal scrollbar */
+::-webkit-scrollbar-horizontal {
+  height: 4px;
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+  background-color: var(--custom-scrollbar-thumb-background);
+}
+
+/* Firefox */
+/* Note: You may need to use a browser-specific prefix for Firefox */
+/* For example: scrollbar-thumb */
+/* For the purpose of this example, we'll use the unprefixed version */
+/* You may need to add appropriate prefixes for cross-browser compatibility */
+
+/* For both Firefox vertical and horizontal scrollbars */
+* {
+  scrollbar-color: var(--custom-scrollbar-thumb-background) transparent;
+}
+
+/* Edge */
+/* For Edge vertical scrollbar */
+*::-ms-scrollbar-thumb {
+  background-color: var(--custom-scrollbar-thumb-background);
+}
+
+/* For Edge horizontal scrollbar */
+*::-ms-scrollbar-thumb:horizontal {
+  background-color: var(--custom-scrollbar-thumb-background);
+}

@@ -1,0 +1,28 @@
+.selected-row {
+    /* Define your selected row styles here */
+    background-color: #2aada06e; /* Change this to the background color you want */
+  }
+  
+  .selected-row:hover {
+    /* Styles for the selected row on hover */
+    background-color: #2aada06e; /* Change this to the hover background color you want */
+    cursor: pointer; /* Show a pointer cursor on hover */
+    /* Add any other hover styles you'd like */
+  }
+
+  .pointer {
+    cursor: pointer;
+  }
+
+  /* AllCirculars.css */
+.pdf-container {
+    width: 100% !important;
+    height: 90% !important;
+   
+    justify-content: center;
+}
+
+.pdf-document {
+    max-width: 100% !important;
+    height: 100% !important; /* or set a specific height as needed */
+}

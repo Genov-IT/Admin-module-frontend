@@ -1,0 +1,257 @@
+.common-cotent-container {
+    padding: 5px 20px;
+    height: 100%;
+    background: var(--content-container-bg-light);
+    box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.common-save-btn {
+    background-color: #157a3d;
+}
+
+.common-dashed-btn {
+    padding: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px dashed var(--theam-color);
+    border-radius: 5px;
+    color: var(--theam-color);
+}
+
+.content {
+    padding: 10px 30px 30px 30px
+}
+
+
+.common-cancel-btn {
+    background-color: var(--cancel-btn-bg-light);
+    color: var(--cancel-btn-color-light);
+    border: '1px solid rgba(0, 0, 0, 0.23)'
+}
+
+.common-form-label {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.common-btn-color {
+    background-color: var(--save-btn-bg-light);
+    font-weight: 500;
+}
+
+.customSizedUpload .ant-upload {
+    width: 100% !important;
+    height: 150px !important;
+}
+
+.booking-cotent-container {
+
+    height: 100%;
+    background: var(--content-container-bg-light);
+    border-radius: 5px;
+    border: 1px solid rgb(221, 225, 227);
+    width: 100%;
+
+}
+
+.table-container {
+    border-radius: 5px;
+    border: 1px solid rgb(221, 225, 227);
+}
+
+.custom-breadcrumb-item {
+    cursor: pointer;
+
+}
+
+.custom-breadcrumb-item:hover {
+    color: var(--cancel-btn-color-light);; /* Example hover effect, change color to blue */
+    text-decoration: underline;
+}
+
+.custom-button {
+    border: none;
+    min-width: 50px;
+    background: none;
+    cursor: pointer;
+    padding: 10px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1px;
+    transition: background-color 0.3s ease;
+    border-right: 1px solid #e0e0e0; /* Adding right border to create separation */
+}
+
+.custom-button:hover {
+    background-color: rgba(0, 0, 0, 0.1); /* Adjust hover effect as needed */
+}
+
+.custom-button:last-child {
+    border-right: none; /* Remove right border for the last button */
+}
+
+.custom-button.edit {
+    color: #000;
+    border-right: 1px solid #e0e0e0;
+}
+
+.custom-button.view {
+    color: #000;
+    border-right: 1px solid #e0e0e0;
+}
+
+.custom-button.delete {
+    color: #000;
+}
+
+.button-container {
+    float: right;
+    text-align: center;
+    width: fit-content;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid #e0e0e0; /* Adding outer border to container */
+    border-radius: 4px;
+    overflow: hidden; /* Ensure child elements don't exceed container bounds */
+}
+
+.dark-mode {
+    background-color: #333; /* Dark background */
+    border-right: 1px solid #555; /* Darker border */
+}
+
+.button-container.dark-mode {
+    border: 1px solid #555; /* Darker outer border */
+}
+
+.icon-dark-mode {
+    color: #fff; /* White color for dark mode icons */
+}
+
+/* styles.css */
+
+.ant-card {
+    border-radius: 8px;
+    border: 1px solid #e8e8e8;
+}
+
+.ant-card-title {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #333;
+}
+
+.ant-card-actions > li {
+    margin: 0 8px;
+}
+
+.ant-card p {
+    margin: 0;
+    color: #555;
+    font-size: 0.9em;
+}
+
+.ant-btn-link {
+    font-size: 0.9em;
+}
+
+.ant-btn-primary {
+    background-color: #1890ff;
+    border-color: #1890ff;
+}
+
+/* Custom CSS to move the collapse arrow to the right */
+.custom-collapse .ant-collapse-header {
+    display: flex;
+    justify-content: space-between; /* This pushes the arrow to the right */
+    align-items: center; /* Center the content vertically */
+}
+
+.custom-collapse .ant-collapse-header .ant-collapse-arrow {
+    order: 2; /* Make sure the arrow is the last item in the flex container */
+}
+
+.custom-collapse .ant-collapse-header .ant-collapse-header-text {
+    order: 1; /* Ensure the header text is before the arrow */
+    flex-grow: 1; /* Allow the text to take up available space */
+}
+
+
+/*forget password */
+/* PasswordReset.css */
+
+/* PasswordReset.css */
+
+.reset-password-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 8px;
+    background: linear-gradient(to right, #1e3c72, #2a5298);
+}
+
+.reset-password-card {
+    background: white;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+
+}
+
+.reset-password-form .ant-form-item {
+    margin-bottom: 16px;
+    margin-top: 24px;
+}
+
+.reset-password-button {
+    width: 100%;
+}
+
+.password-policies {
+    text-align: left;
+    margin-top: 24px;
+}
+
+.password-policies div.policy {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    margin-bottom: 2px;
+}
+
+.password-policies .policy.valid {
+    color: green;
+}
+
+.password-policies .policy.invalid {
+    color: red;
+}
+
+
+
+
+
+@media (min-height: 900px) {
+    .common-cotent-container {
+        min-height: 740px
+        /* Adjust maximum height for smaller screens */;
+        height: 100%;
+    }
+}
+
+@media (max-height: 900px) {
+    .common-cotent-container {
+        min-height: 640px
+        /* Adjust maximum height for smaller screens */;
+
+    }
+}
